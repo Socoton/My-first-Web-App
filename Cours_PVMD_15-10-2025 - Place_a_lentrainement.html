@@ -1,33 +1,61 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta><meta>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
 </head>
 <body>
     <header>
-        <nav>
-            <h1>Mon site de jeux vidéos</h1>
-            <h3>Mes jeux préférés</h3>
-                <ol>
-                    <li><strong>Assasin's Creed</strong></li>
-                    <p>Assassin's Creed est une série de jeux vidéo historique d'action-aventure et d'infiltration en monde ouvert, développée et éditée par Ubisoft.</p>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Assassin%E2%80%99s_Creed.svg/1200px-Assassin%E2%80%99s_Creed.svg.png" alt="" width="300">
-                    <li><strong> Age of Empire</strong></li>
-                    <p>Age of Empires est une série de jeux de stratégie en temps réel développés par Ensemble Studios et publiés par Microsoft Studios. Le premier titre de la série — Age of Empires — est un jeu de stratégie en temps réel publié en 1997.</p>
-                    <img src="https://upload.wikimedia.org/wikipedia/fr/5/55/AoE_Definitive_Edition.png" alt="" width="300">
-                    <li><strong>Les Sims 3</strong></li>
-                    <p> Les Sims 3 est un jeu vidéo de simulation de vie de la série de jeux Les Sims, initialement développé par The Sims Studio, une division de Maxis et édité par EA Games.</p>
-                    <img src="https://upload.wikimedia.org/wikipedia/fr/1/15/Les_Sims_3_Logo.png" alt="" width="300">
-                </ol><hr>
-                <h3>Mes consoles préférées</h3>
-                <ul>
-                    <li><strong>Xbox 360</strong></li>
-                    <li><strong> Nintendo Wii</strong></li>
-                    <li><strong> Nintendo Switch</strong></li>
-                </ul><hr>
-            </h1>
-        </nav>
+            <h1>Formulaire de contact</h1>
     </header>
+    <main> 
+        <fieldset>
+
+          <legend>Informations à renseigner</legend>
+
+          <form action="#"method="post">
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom" required />
+
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required /><br>
+
+          <br><label for="message">Message :</label><br>
+          <textarea type="id" id="message" name="message" required></textarea>
+
+          <button type="submit">Envoyer</button>
+          <button type="reset">Reset</button>
+          </form>
+        </fieldset>
+    </main>
 </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaires</title>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <label for="name">Nom</label><br />
+      <input type="text" id="name" name="nom" required /><br />
+      <label for="email">Email</label><br />
+      <input type="email" id="email" name="email" required /><br />
+      <label for="message">Entrez votre message</label><br />
+      <textarea
+        name="message"
+        id="message"
+        placeholder="message ici ...."
+        rows="10"
+        cols="20"
+      ></textarea>
+      <button type="submit">Enyover</button>
+      <button type="reset">Reset</button>
+      <!-- <input type="submit" value="Envoyer mon message"> -->
+    </form>
+  </body>
 </html>
