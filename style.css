@@ -1,3 +1,25 @@
-body {
-    background-color: tomato;
+
+h1{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 64px;
+}
+
+h2{
+    color: rgb(255, 166, 0);
+    text-align: center;
+}
+
+p{
+    text-align:center
+}
+
+.texte-important{
+    color: rgb(8, 46, 212);
+    font-size: 20px;
+}
+
+#unique{
+    background-color: rgb(255, 255, 0);
+    border: 1px solid black;
 }
