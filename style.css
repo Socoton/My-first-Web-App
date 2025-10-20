@@ -2,32 +2,23 @@ body{
   margin: 0px;
 }
 
-header{
-  margin-bottom: 20px;
+.box{
   width: 200px;
-  height: 200px;
-  background-color: cornflowerblue;
+  background-color: darkgrey;
+  border-left: 1px solid #000000
 }
 
 .box1{
-  margin-bottom: 15px;
-  margin-left: 30px;
-  width: 400px;
-  height: 400px;
+  padding:20px;
   background-color: darkgrey;
 }
 
 .box2{
-  margin-bottom: 15px;
-  margin-right: 20px;
-  width: 300px;
-  height: 300px;
+  padding: 10px 30px;
   background-color: darkslateblue;
 }
 
 .box3{
-  margin: 10px;
-  width: 200px;
-  height: 200px;
+  padding: 5px 15px 25px 10px;
   background-color: hotpink;
 }
