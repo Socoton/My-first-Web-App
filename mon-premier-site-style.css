@@ -28,6 +28,7 @@ img {
     font-size: 20px;
 }
 
+
 .intro {
     font-size: 10px;
     background-color: rgba(220, 20, 60, 0.264);
@@ -35,6 +36,24 @@ img {
     padding: 20px;
     border-radius: 10px
 
+}
+
+.image-ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.image-ul .image-linkedin {
+    padding-left: 15%;
+    background:url(2446228.svg) no-repeat left top;
+    background-size: 20% 100%; 
+    margin-bottom: 10px;
+}
+
+.image-ul .image-github {
+    padding-left: 15%;
+    background: url(Octicons-mark-github.svg) no-repeat left top;
+    background-size: 20% 100%; 
 }
 
 .ul{ font-size: 15px;
@@ -45,8 +64,8 @@ img {
 
 }
 
-.center{
-  text-align: center;
+.li{
+  list-style-type: circle;
 }
 
 .border{
