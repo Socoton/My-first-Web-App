@@ -1,24 +1,23 @@
+/* Reset CSS */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Contenu du body */
+
 body{
-  margin: 0px;
+  height: 1600px;
 }
 
 .box{
-  width: 200px;
   background-color: darkgrey;
-  border-left: 1px solid #000000
+  margin: 20px;
 }
 
-.box1{
-  padding:20px;
-  background-color: darkgrey;
-}
-
-.box2{
-  padding: 10px 30px;
-  background-color: darkslateblue;
-}
-
-.box3{
-  padding: 5px 15px 25px 10px;
-  background-color: hotpink;
+.two{
+  float: left;
+  background-color: crimson;
 }
