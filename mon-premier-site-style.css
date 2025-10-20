@@ -45,6 +45,10 @@ img {
 
 }
 
+.center{
+  text-align: center;
+}
+
 .border{
   border-left: 2px solid #000000
 }
