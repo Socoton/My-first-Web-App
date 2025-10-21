@@ -2,6 +2,58 @@ body {
   background-color: rgb(230, 216, 216);
 }
 
+.pp-body{
+  background-image:url(pexels-brett-sayles-4066118.jpg);
+  background-size: 2000px
+}
+
+.truc-a-centrer {
+  position: absolute; /* postulat de départ */
+  top: 50%; left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+}
+
+.pp-ul{
+  list-style-type: none;
+}
+
+.pp-li{
+   margin-bottom: 10px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #000000;
+}
+
+a:visited {
+  color: #000000;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+a[href] {
+  background: url("2445095.svg") no-repeat 100% 0;
+  background-size: 25px 25px;
+  padding-right: 30px;
+}
+
+
 .pink {
     color: crimson;
 }
