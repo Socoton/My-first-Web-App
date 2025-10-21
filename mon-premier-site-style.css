@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(230, 216, 216);
+  background-color: rgb(255, 255, 255);
 }
 
 .pp-body{
@@ -55,7 +55,7 @@ a[href] {
 
 
 .pink {
-    color: crimson;
+    color: rgb(0, 0, 0);
 }
 
 img {
@@ -83,7 +83,7 @@ img {
 
 .intro {
     font-size: 10px;
-    background-color: rgba(220, 20, 60, 0.264);
+    background-color: rgba(212, 190, 177);
     margin: 5px;
     padding: 20px;
     border-radius: 10px
@@ -157,7 +157,3 @@ img {
 }
 
 
-
-input:focus {
-  outline-color: aqua;
-}
