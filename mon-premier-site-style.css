@@ -14,6 +14,10 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
+/* .container{
+  position: relative;
+} */
+
 .pp-body{
   background-image:url(pexels-brett-sayles-4066118.jpg);
   background-size: 2000px;
@@ -24,14 +28,22 @@ body {
 
 .truc-a-centrer {
   position: absolute; /* postulat de départ */
-  top: 50%; left: 50%; /* à 50%/50% du parent référent */
+  top:50%; left: 50%; /* à 50%/50% du parent référent */
   transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
 }
 
-.pp-h1{ position:absolute;
+.pp-p{ position:absolute;
   top: 10%; left:10%;
   font-size: 100px;
   color: #ffffff;
+}
+
+.pp-p-two{ 
+  position:absolute;
+  top: 60%; left:50%;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: left;
 }
 
 .pp-ul{
@@ -68,7 +80,7 @@ a:hover {
   border-radius: 5px;
 }
 
-a[href] {
+nav a[href] {
   background: url("2445095.svg") no-repeat 100% 0;
   background-size: 25px 25px;
   padding-right: 30px;
@@ -162,24 +174,10 @@ img {
 .conteneur_2 {
   padding: 10px;
   display: flex;
-<<<<<<< HEAD
   gap: 150px;
   text-align:justify;
 }
 
-=======
-  gap: 50px;
-  text-align:justify;
-}
-
-.conteneur_3 {
-  padding-left: 50px;
-  padding-right: 400px;
-  display: flex;
-  gap: 5px;
-}
-
->>>>>>> d8362ec0ef64b027021168d909a67674fc0ce940
 .font-weight {
   font-weight: 700;
 }
