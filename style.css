@@ -4,20 +4,59 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: cornflowerblue;
 }
 
 /* Contenu du body */
 
-body{
-  height: 1600px;
+.container {
+  width: 100%;
+  height: 100vh;
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: top;
+}
+
+.container div{
+  width: 100px;
+  height: 50px;
+  margin: 70px;
+}
+
+img{
+  width: 70px;
+  height: 70px;
+  border-radius: 360px;
 }
 
 .box{
+  width: 25px;
+  height: 50px;
+  border-radius: 20px;
   background-color: darkgrey;
-  margin: 20px;
+}
+
+.one{
+  background-color: indianred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .two{
-  float: left;
-  background-color: crimson;
+  background-color: grey;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.three{
+  background-color: navy;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
