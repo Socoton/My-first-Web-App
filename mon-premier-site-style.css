@@ -1,9 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Reset CSS */
+
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* Contenu du body */
+
 body {
   background-color: rgb(255, 255, 255);
 }
 
+.pp-body{
+  background-image:url(pexels-brett-sayles-4066118.jpg);
+  background-size: 2000px;
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.truc-a-centrer {
+  position: absolute; /* postulat de départ */
+  top: 50%; left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+}
+
+.pp-h1{ position:absolute;
+  top: 10%; left:10%;
+  font-size: 100px;
+  color: #ffffff;
+}
+
+.pp-ul{
+  list-style-type: none;
+}
+
+.pp-li{
+   margin-bottom: 20px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #000000;
+}
+
+a:visited {
+  color: #000000;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+a[href] {
+  background: url("2445095.svg") no-repeat 100% 0;
+  background-size: 25px 25px;
+  padding-right: 30px;
+}
+
+
 .pink {
-    color: crimson;
+    color: rgb(0, 0, 0);
 }
 
 img {
@@ -25,17 +98,55 @@ img {
 .text-flexible {
     flex: 1;
     padding: 10px;
+    font-size: 20px;
 }
 
+
 .intro {
-    font-size: 8px;
-    background-color: rgba(220, 20, 60, 0.264);
+    font-size: 10px;
+    background-color: rgba(212, 190, 177);
     margin: 5px;
     padding: 20px;
+    border-radius: 10px
+
+}
+
+.image-ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.image-ul .image-linkedin {
+    padding-left: 15%;
+    background:url(2446228.svg) no-repeat left top;
+    background-size: 20% 100%; 
+    margin-bottom: 10px;
+}
+
+.image-ul .image-github {
+    padding-left: 15%;
+    background: url(Octicons-mark-github.svg) no-repeat left top;
+    background-size: 20% 100%; 
+}
+
+.ul{ font-size: 15px;
+
+}
+
+.p{ font-size: 15px;
+
+}
+
+.li{
+  list-style-type: circle;
+}
+
+.border{
+  border-left: 2px solid #000000
 }
 
 .presentation {
-    font-size: 12px;
+    font-size: 20px;
     padding: 10px;
     margin: 10px auto;
     text-align: justify;
@@ -51,25 +162,26 @@ img {
 .conteneur_2 {
   padding: 10px;
   display: flex;
+<<<<<<< HEAD
   gap: 150px;
   text-align:justify;
 }
 
+=======
+  gap: 50px;
+  text-align:justify;
+}
+
+.conteneur_3 {
+  padding-left: 50px;
+  padding-right: 400px;
+  display: flex;
+  gap: 5px;
+}
+
+>>>>>>> d8362ec0ef64b027021168d909a67674fc0ce940
 .font-weight {
   font-weight: 700;
 }
 
-footer {
-  height: 300px;
-  background-color: rgb(0, 0, 0);
-}
 
-footer p{
-    color: white;
-    margin: 15px;
-    border: 2px solid red;
-}
-
-input:focus {
-  outline-color: aqua;
-}
