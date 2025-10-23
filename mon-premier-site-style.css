@@ -26,6 +26,13 @@ body {
   font-style: normal;
 }
 
+.pp-img{
+  position: absolute;
+  top: 30%; left:20%;
+  width: 600px;
+  height: 600px;
+}
+
 .truc-a-centrer {
   position: absolute; /* postulat de départ */
   top:50%; left: 50%; /* à 50%/50% du parent référent */
