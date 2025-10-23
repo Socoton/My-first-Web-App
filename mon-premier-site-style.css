@@ -10,13 +10,85 @@
 
 /* Contenu du body */
 
-body {
+/* body {
   background-color: rgb(255, 255, 255);
-}
+} */
 
 /* .container{
   position: relative;
 } */
+
+.am-body{
+  background-color: rgb(156, 177, 194);
+}
+
+.cm-body{
+  background-color:rgba(44, 39, 45);
+}
+
+.cv-body{
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-image:url(pexels-pixabay-414659.jpg) ;
+  background-color: rgba(255, 255, 255, 0);
+  background-blend-mode: lighten;
+}
+
+.cm-image-ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size:50px;
+    color: #ffffff;
+    position:absolute;
+    top: 10%; left: 20%;
+
+
+}
+
+.cm-image-ul .image-linkedin {
+    padding-left: 30%;
+    background:url(2446228.svg) no-repeat left top;
+    background-size: 20% 100%; 
+    margin-bottom: 50px;
+    
+}
+
+.cm-image-ul .image-github {
+    padding-left: 30%;
+    background: url(github-logo-6532.svg) no-repeat left top;
+    background-size: 20% 100%; 
+}
+
+.cm-image-ul .image-phone {
+    padding-left: 30%;
+    margin-bottom: 50px;
+}
+
+.cm-image-ul .image-mail {
+    padding-left: 30%;
+    margin-bottom: 50px;
+}
+
+.am-p{
+  font-size: 50px;
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #ffffff;
+  text-align: justify;
+  padding: 80px;
+}
+
+.am-img{
+  position: absolute;
+  width: 2000px;
+  height: 1000px;
+}
+
 
 .pp-body{
   background-image:url(pexels-brett-sayles-4066118.jpg);
@@ -48,9 +120,8 @@ body {
 .pp-p-two{ 
   position:absolute;
   top: 60%; left:50%;
-  font-size: 30px;
+  font-size: 80px;
   color: #ffffff;
-  text-align: left;
 }
 
 .pp-ul{
@@ -68,7 +139,7 @@ a {
 }
 
 a:link {
-  color: #000000;
+  color: #ffffff;
 }
 
 a:visited {
@@ -99,9 +170,10 @@ nav a[href] {
 }
 
 img {
-    height: 225px;
-    width: 225px;
-    border-radius: 10px;
+    height: 290px;
+    width: 300px;
+    position:absolute;
+    top: 5%;
 }
 
 .flexible {
@@ -111,7 +183,8 @@ img {
 
 .img-flexible {
     display:flex;
-    align-items: flex-start;  
+    align-items: flex-start;
+    width:350px;  
 }
 
 .text-flexible {
@@ -120,13 +193,19 @@ img {
     font-size: 20px;
 }
 
+.cv-h{
+  color:#ffffff
+}
+
 
 .intro {
     font-size: 10px;
-    background-color: rgba(212, 190, 177);
+    background-color: rgba(44, 39, 45);
     margin: 5px;
     padding: 20px;
-    border-radius: 10px
+    width : 250px;
+    text-align: left;
+    color:#ffffff
 
 }
 
@@ -136,15 +215,15 @@ img {
 }
 
 .image-ul .image-linkedin {
-    padding-left: 15%;
+    padding-left: 20%;
     background:url(2446228.svg) no-repeat left top;
     background-size: 20% 100%; 
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .image-ul .image-github {
-    padding-left: 15%;
-    background: url(Octicons-mark-github.svg) no-repeat left top;
+    padding-left: 20%;
+    background:url(github-logo-6532.svg) no-repeat left top;
     background-size: 20% 100%; 
 }
 
@@ -161,7 +240,7 @@ img {
 }
 
 .border{
-  border-left: 2px solid #000000
+  border-left: 2px solid #ffffff
 }
 
 .presentation {
