@@ -18,6 +18,12 @@
   position: relative;
 } */
 
+iframe{
+  position: absolute;
+  left:85%; top:5%;
+  opacity: 50%;
+}
+
 .am-body{
   background-color: rgb(156, 177, 194);
 }
@@ -74,7 +80,7 @@
 }
 
 .am-p{
-  font-size: 50px;
+  font-size: 70px;
   font-family: "Google Sans Code", monospace;
   font-optical-sizing: auto;
   font-style: normal;
@@ -92,7 +98,7 @@
 
 .pp-body{
   background-image:url(pexels-brett-sayles-4066118.jpg);
-  background-size: 2000px;
+  background-size: 3000px;
   font-family: "Google Sans Code", monospace;
   font-optical-sizing: auto;
   font-style: normal;
