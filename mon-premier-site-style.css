@@ -154,7 +154,7 @@ a:focus {
 
 a:hover {
   border-bottom: 1px solid;
-  background: #ffffff;
+  background: #000000;
   border-radius: 5px;
 }
 
@@ -166,7 +166,7 @@ nav a[href] {
 
 
 .pink {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 img {
@@ -261,7 +261,7 @@ img {
   padding: 10px;
   display: flex;
   gap: 150px;
-  text-align:justify;
+  text-align:left;
 }
 
 .font-weight {
