@@ -10,9 +10,6 @@
 
 /* Contenu du body */
 
-/* body {
-  background-color: rgb(255, 255, 255);
-} */
 
 /* .container{
   position: relative;
@@ -77,28 +74,6 @@ section img {
   font-optical-sizing: auto;
   font-style: normal;
 }
-
-
-p a{
-  outline: none;
-  padding: 2px 1px 0;
-}
-
-p a:link {
-  color: #000000;
-}
-
-p a:focus {
-  border-bottom: 1px solid;
-  border-radius: 5px;
-}
-
-p a:hover {
-  border-bottom: 1px solid;
-  border-radius: 5px;
-}
-
-
 
 .cv-body{
   font-family: "Google Sans Code", monospace;
@@ -204,6 +179,20 @@ p a:hover {
 
 .pp-li{
    margin-bottom: 20px;
+}
+
+.pp-a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+.pp-a:link {
+  color: #000000;
+}
+
+.pp-a:visited {
+  color: #000000;
 }
 
 a {
