@@ -26,6 +26,63 @@
   background-color:rgba(44, 39, 45);
 }
 
+.cv2-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cv2-ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-size:20px;
+  column-gap: 300px;
+}
+
+.cv2-li{
+  padding:8px;
+}
+
+
+
+.cv2-h1{
+  text-align: center;
+}
+
+section{
+  /* Active le modèle Flexbox */
+    display: flex;
+    /* Aligne verticalement les éléments au centre (facultatif) */
+    align-items: right;
+    /* Ajoute un espacement entre l'image et le texte */
+    gap: 60px;
+    /* Définissez une largeur maximale (facultatif) */
+    flex-direction: row;
+    padding:80px;
+}
+
+section img {
+    width: 700px;
+    height: 700px;
+    /* Permet à l'image de ne pas se réduire (facultatif) */
+    flex-shrink: 0;
+    order:2;
+}
+
+.cv2-div{
+  display: flex;
+  flex-direction: column;
+}
+
+.cv2-body{
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
 .cv-body{
   font-family: "Google Sans Code", monospace;
   font-optical-sizing: auto;
@@ -169,12 +226,12 @@ nav a[href] {
     color: rgb(255, 255, 255);
 }
 
-img {
+/* img {
     height: 290px;
     width: 300px;
     position:absolute;
     top: 5%;
-}
+} */
 
 .flexible {
     display: flex;
