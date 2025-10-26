@@ -8,138 +8,17 @@
   box-sizing: border-box;
 } */
 
-/* Contenu du body */
-
 
 /* .container{
   position: relative;
 } */
 
-.am-body{
-  background-color: rgb(156, 177, 194);
-}
-
-.cm-body{
-  background-color:rgba(44, 39, 45);
-}
-
-.cv2-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.cv2-ul{
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  font-size:20px;
-  column-gap: 300px;
-}
-
-.cv2-li{
-  padding:8px;
-}
-
-.cv2-h1{
-  text-align: center;
-}
-
-section{
-  /* Active le modèle Flexbox */
-    display: flex;
-    /* Ajoute un espacement entre l'image et le texte */
-    gap: 80px;
-    /* Définissez une largeur maximale (facultatif) */
-    flex-direction: row;
-    padding:80px;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-section img {
-    width: 700px;
-    height: 700px;
-    /* Permet à l'image de ne pas se réduire (facultatif) */
-}
-
-.cv2-div{
-  display: flex;
-  flex-direction: column;
-}
-
-.cv2-body{
-  font-family: "Google Sans Code", monospace;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
-
-.cv-body{
-  font-family: "Google Sans Code", monospace;
-  font-optical-sizing: auto;
-  font-style: normal;
-  background-image:url(pexels-pixabay-414659.jpg) ;
-  background-color: rgba(255, 255, 255, 0);
-  background-blend-mode: lighten;
-}
-
-.cm-image-ul {
-    list-style-type: none;
-    padding: 0;
-    font-family: "Google Sans Code", monospace;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-size:50px;
-    color: #ffffff;
-    position:absolute;
-    top: 10%; left: 20%;
 
 
-}
 
-.cm-image-ul .image-linkedin {
-    padding-left: 30%;
-    background:url(2446228.svg) no-repeat left top;
-    background-size: 20% 100%; 
-    margin-bottom: 50px;
-    
-}
+/* Contenu de la Page Principale */
 
-.cm-image-ul .image-github {
-    padding-left: 30%;
-    background: url(github-logo-6532.svg) no-repeat left top;
-    background-size: 20% 100%; 
-}
-
-.cm-image-ul .image-phone {
-    padding-left: 30%;
-    margin-bottom: 50px;
-}
-
-.cm-image-ul .image-mail {
-    padding-left: 30%;
-    margin-bottom: 50px;
-}
-
-.am-p{
-  font-size: 50px;
-  font-family: "Google Sans Code", monospace;
-  font-optical-sizing: auto;
-  font-style: normal;
-  color: #ffffff;
-  text-align: justify;
-  padding: 80px;
-}
-
-.am-img{
-  position: absolute;
-  width: 2000px;
-  height: 1000px;
-}
-
-
-.pp-body{
+#pp-body{
   background-image:url(pexels-brett-sayles-4066118.jpg);
   background-size: 2000px;
   font-family: "Google Sans Code", monospace;
@@ -195,6 +74,94 @@ section img {
   color: #000000;
 }
 
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  order: 1;
+  gap: 80px;
+}
+
+
+nav a[href] {
+  background: url("2445095.svg") no-repeat 100% 0;
+  background-size: 25px 25px;
+  padding-right: 30px;
+}
+
+
+
+
+/* Contenu du CV version 2 */
+
+
+.cv2-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cv2-ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-size:20px;
+  column-gap: 300px;
+}
+
+.cv2-li{
+  padding:8px;
+}
+
+.cv2-h1{
+  text-align: center;
+}
+
+section{
+  /* Active le modèle Flexbox */
+    display: flex;
+    /* Ajoute un espacement entre l'image et le texte */
+    gap: 80px;
+    /* Définissez une largeur maximale (facultatif) */
+    flex-direction: row;
+    padding:80px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+section img {
+    width: 700px;
+    height: 700px;
+    /* Permet à l'image de ne pas se réduire (facultatif) */
+}
+
+.cv2-div{
+  display: flex;
+  flex-direction: column;
+}
+
+.cv2-body{
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container_2{
+  max-width:800px
+}
+
+.container_3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  order: 1;
+}
+
 a {
   outline: none;
   padding: 2px 1px 0;
@@ -209,15 +176,94 @@ a:visited {
 }
 
 
-nav a[href] {
-  background: url("2445095.svg") no-repeat 100% 0;
-  background-size: 25px 25px;
-  padding-right: 30px;
+/* Contenu de la page About Me */
+
+#am-body{
+  background-color: rgb(156, 177, 194);
 }
 
-.pink {
-    color: rgb(255, 255, 255);
+.am-p{
+  font-size: 50px;
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #ffffff;
+  text-align: justify;
+  padding: 80px;
 }
+
+.am-img{
+  position: absolute;
+  width: 2000px;
+  height: 1000px;
+}
+
+
+
+/* Contenu de la page Contact Me */
+
+
+#cm-body{
+  background-color:rgba(44, 39, 45);
+}
+
+.cm-image-ul {
+    list-style-type: none;
+    padding: 20px;
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size:50px;
+    color: #ffffff;
+}
+
+.cm-image-ul .image-linkedin {
+    padding-left: 30%;
+    background:url(2446228.svg) no-repeat left top;
+    background-size: 20% 100%; 
+    margin-bottom: 50px;
+    
+}
+
+.cm-image-ul .image-github {
+    padding-left: 30%;
+    background: url(github-logo-6532.svg) no-repeat left top;
+    background-size: 20% 100%; 
+}
+
+.cm-image-ul .image-phone {
+    padding-left: 30%;
+    margin-bottom: 50px;
+}
+
+.cm-image-ul .image-mail {
+    padding-left: 30%;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+/* __________________________________________________________________*/
+/* Contenu du CV version 1 */
+/* __________________________________________________________________ */
+
+/* .cv-body{
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-image:url(pexels-pixabay-414659.jpg) ;
+  background-color: rgba(255, 255, 255, 0);
+  background-blend-mode: lighten;
+}  */
+
+
+/* .pink {
+    color: rgb(255, 255, 255);
+} */
 
 /* img {
     height: 290px;
@@ -226,28 +272,28 @@ nav a[href] {
     top: 5%;
 } */
 
-.flexible {
+/* .flexible {
     display: flex;
     flex-direction:row;
-}
+} */
 
-.img-flexible {
+/* .img-flexible {
     display:flex;
     align-items: flex-start;
     width:350px;  
-}
+} */
 
-.text-flexible {
+/* .text-flexible {
     flex: 1;
     padding: 10px;
     font-size: 20px;
-}
+} */
 
-.cv-h{
-  color:#ffffff
-}
+/* .cv-h{
+  color:#ffffff;
+} */
 
-
+/* 
 .intro {
     font-size: 10px;
     background-color: rgba(44, 39, 45);
@@ -255,11 +301,11 @@ nav a[href] {
     padding: 20px;
     width : 250px;
     text-align: left;
-    color:#ffffff
+    color:#ffffff;
 
-}
+} */
 
-.image-ul {
+/* .image-ul {
     list-style-type: none;
     padding: 0;
 }
@@ -275,68 +321,47 @@ nav a[href] {
     padding-left: 20%;
     background:url(github-logo-6532.svg) no-repeat left top;
     background-size: 20% 100%; 
-}
+} */
 
+/* 
 .ul{ font-size: 15px;
 
 }
 
 .p{ font-size: 15px;
 
-}
+} */
 
-.li{
+/* .li{
   list-style-type: circle;
-}
+} */
 
-.border{
-  border-left: 2px solid #ffffff
-}
+/* .border{
+  border-left: 2px solid #ffffff;
+} */
 
-.presentation {
+/* .presentation {
     font-size: 20px;
     padding: 10px;
     margin: 10px auto;
     text-align: justify;
-    }
+    } */
 
-.conteneur {
+/* .conteneur {
   padding: 10px;
   display: flex;
   gap: 10px;
   text-align:justify;
-}
+} */
 
-.conteneur_2 {
+/* .conteneur_2 {
   padding: 10px;
   display: flex;
   gap: 150px;
   text-align:left;
-}
+} */
 
-.font-weight {
+/* .font-weight {
   font-weight: 700;
-}
+} */
 
-.container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  order: 1;
-  gap: 80px;
-}
-
-.container_2{
-  max-width:800px
-}
-
-.container_3{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  order: 1;
-}
