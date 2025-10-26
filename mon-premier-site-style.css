@@ -9,11 +9,6 @@
 } */
 
 
-/* .container{
-  position: relative;
-} */
-
-
 
 
 /* Contenu de la Page Principale */
@@ -190,12 +185,6 @@ a:visited {
   color: #ffffff;
   text-align: justify;
   padding: 80px;
-}
-
-.am-img{
-  position: absolute;
-  width: 2000px;
-  height: 1000px;
 }
 
 
