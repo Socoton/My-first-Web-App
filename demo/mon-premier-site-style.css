@@ -325,7 +325,11 @@ a:visited {
   padding-top:80px;
 }
 
-
+.cm-img{
+  width:500px;
+  position:absolute;
+  top:100px; left:300px;
+}
 
 /* __________________________________________________________________*/
 /* Contenu du CV version 1 */
