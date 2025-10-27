@@ -42,16 +42,16 @@ html {
 
 .pp-p{ 
 	position: relative;
-	right: 90%; bottom: 30%;
+	right: 150%; bottom: 40%;
 	padding: 30px;
-  font-size: 100px;
+  font-size: 150px;
   color: #ffffff;
 }
 
 .pp-p-two{ 
   position: relative;
-	left: 90%; top: 30%;
-  font-size: 80px;
+	left: 150%; top: 30%;
+  font-size: 130px;
   color: #ffffff;
 }
 
@@ -61,6 +61,7 @@ html {
 
 .pp-li{
    margin-bottom: 20px;
+   font-size: 30px;
 }
 
 .pp-a {
