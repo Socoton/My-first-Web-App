@@ -10,58 +10,48 @@ html {
 	height: 100%;
 }
 .pp-body {
-	color: #fff;
-	font-size: 16px;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	background-image: url(img/pexels-brett-sayles-4066118.jpg);
 	background-size: cover;
-	background-position: 50% 0;
-	height: 100%;
-	text-align: center;
+	height: 100%; width: 100%;
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
-.pp-body:before {
+/* .pp-body:before {
 	content: '';
 	display: inline-block;
 	vertical-align: middle;
 	height: 100%;
-}
+} */
 
-.pp-main {
+/* .pp-main {
 	display: inline-block;
 	vertical-align: middle;
 	padding:  100px;
 	max-width: 500px;
-}
-
-.truc-a-centrer {
-  position: absolute; /* postulat de départ */
-  top:50%; left: 50%; /* à 50%/50% du parent référent */
-  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
-}
+} */
 
 .pp-p{ 
-	position: relative;
-	right: 150%; bottom: 40%;
-	padding: 30px;
-  font-size: 150px;
+  font-size: 550%;
   color: #ffffff;
+  text-align: center;
 }
 
 .pp-p-two{ 
-  position: relative;
-	left: 150%; top: 30%;
-  font-size: 130px;
+  font-size: 450%;
   color: #ffffff;
+  text-align: center;
 }
 
 .pp-ul{
   list-style-type: none;
+  text-align: center;
 }
 
 .pp-li{
    margin-bottom: 20px;
-   font-size: 30px;
+   font-size: 150%;
 }
 
 .pp-a {
@@ -79,8 +69,15 @@ html {
 }
 
 .container{
-	position: relative;
+	display: flex;
+  align-items: center;
+  position:absolute;
+  top:35%; left:8%;
+  gap:5%;
 }
+
+
+
  
 /* .pp-nav a[href] {
   background: url("images/2445095.svg") no-repeat 100% 0;
