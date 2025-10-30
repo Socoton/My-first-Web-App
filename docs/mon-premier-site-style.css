@@ -13,12 +13,24 @@
   font-family: "Google Sans Code", monospace;
   font-optical-sizing: auto;
   font-style: normal;
+<<<<<<< Updated upstream
+=======
+  display: flex;
+  
+>>>>>>> Stashed changes
 }
 
-.pp-header{
-  display: flex;
-  align-items: center;
+  .pp-header {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(5, 1fr); 
+grid-column-gap: 10px;
 }
+
+.div1 { grid-area: 3 / 1 / 4 / 2; }
+.div2 { grid-area: 3 / 2 / 4 / 3; }
+.div3 { grid-area: 3 / 3 / 4 / 4; }
+
 /* .pp-body:before {
 	content: '';
 	display: inline-block;
@@ -76,7 +88,16 @@
   color: white;
   padding: 50px;
 
+<<<<<<< Updated upstream
 }
+=======
+
+
+  /* position:absolute;
+  top:35%; left:8%;
+  gap:5%;
+} */
+>>>>>>> Stashed changes
 
 .container{
 	display: flex;
