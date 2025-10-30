@@ -16,15 +16,16 @@
 }
 
   .pp-header {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: repeat(5, 1fr); 
-grid-column-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
 
-.div1 { grid-area: 3 / 1 / 4 / 2; }
-.div2 { grid-area: 3 / 2 / 4 / 3; }
-.div3 { grid-area: 3 / 3 / 4 / 4; }
+.div1 { grid-area: 3 / 2 / 4 / 3; }
+.div2 { grid-area: 3 / 3 / 4 / 4; align-content: center; }
+.div3 { grid-area: 3 / 4 / 4 / 5; }
 
 /* .pp-body:before {
 	content: '';
