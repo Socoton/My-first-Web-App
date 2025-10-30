@@ -13,10 +13,6 @@
   font-family: "Google Sans Code", monospace;
   font-optical-sizing: auto;
   font-style: normal;
-
-  display: flex;
-  
-
 }
 
   .pp-header {
@@ -86,29 +82,9 @@ grid-column-gap: 10px;
   align-items: center;
   color: white;
   padding: 50px;
-
-<<<<<<< Updated upstream
 }
-=======
 
 
-
-
-
-
-
-
-
-
-  /* position:absolute;
-  top:35%; left:8%;
-  gap:5%;
-} */
->>>>>>> Stashed changes
-
-.container{
-	display: flex;
-}
 
 
 /* Contenu de la Page Principale pp */
