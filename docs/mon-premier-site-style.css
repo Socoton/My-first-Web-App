@@ -9,7 +9,7 @@
 .pp-body {
 	background-image: url(img/pexels-brett-sayles-4066118.jpg);
 	background-size: cover;
-	height: 100vh;
+	height: 100vh; width:100%;
   font-family: "Google Sans Code", monospace;
   font-optical-sizing: auto;
   font-style: normal;
@@ -18,6 +18,14 @@
 .pp-header{
   display: flex;
   align-items: center;
+  max-width:1000px;
+  margin:0 auto;
+}
+
+.container {
+   
+    max-width: 1200px; 
+    margin: 0 auto;
 }
 /* .pp-body:before {
 	content: '';
@@ -76,10 +84,6 @@
   color: white;
   padding: 50px;
 
-}
-
-.container{
-	display: flex;
 }
 
 
