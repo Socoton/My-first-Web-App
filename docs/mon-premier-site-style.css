@@ -333,7 +333,6 @@ section{
 section img {
     width: 700px;
     height: 700px;
-    /* Permet à l'image de ne pas se réduire (facultatif) */
 }
 
 .cv2-div{
@@ -400,15 +399,16 @@ a:visited {
 
 @media ((min-width: 320px) and (max-width: 767px)) {
   section{
-  /* Active le modèle Flexbox */
     display: flex;
-    /* Ajoute un espacement entre l'image et le texte */
     gap: 80px;
-    /* Définissez une largeur maximale (facultatif) */
     flex-direction: row-reverse;
     padding:80px;
     justify-content: center;
     width: 1000px;}
+
+  section img {
+    width: 500px;
+    height: 500px;}
 }
 
 /* Contenu de la page About Me */
