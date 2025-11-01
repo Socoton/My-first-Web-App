@@ -304,10 +304,20 @@ nav a[href] {
   padding:8px;
 }
 
+.cv2-li2{
+  text-align: center;
+}
+
 .cv2-h1{
   text-align: center;
   padding-top: 50px;
 }
+
+.section1{
+  display: flex;
+  flex-direction: column;
+}
+
 
 section{
   /* Active le modèle Flexbox */
@@ -335,6 +345,7 @@ section img {
   font-family: "Google Sans Code", monospace;
   font-optical-sizing: auto;
   font-style: normal;
+  height: 100vh; width:100%;
 }
 
 .container_1{
@@ -356,8 +367,6 @@ section img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
   order: 1;
   gap: 50px;
 }
@@ -376,6 +385,32 @@ a:visited {
 }
 
 
+@media ((min-width: 768px) and (max-width: 1024px)) {
+  section{
+  /* Active le modèle Flexbox */
+    display: flex;
+    /* Ajoute un espacement entre l'image et le texte */
+    gap: 80px;
+    /* Définissez une largeur maximale (facultatif) */
+    flex-direction: row-reverse;
+    padding:80px;
+    justify-content: center;
+    width: 200%;}
+}
+
+@media ((min-width: 320px) and (max-width: 767px)) {
+  section{
+  /* Active le modèle Flexbox */
+    display: flex;
+    /* Ajoute un espacement entre l'image et le texte */
+    gap: 80px;
+    /* Définissez une largeur maximale (facultatif) */
+    flex-direction: row-reverse;
+    padding:80px;
+    justify-content: center;
+    width: 1000px;}
+}
+
 /* Contenu de la page About Me */
 
 #am-body{
@@ -388,9 +423,40 @@ a:visited {
   font-optical-sizing: auto;
   font-style: normal;
   color: #ffffff;
-  text-align: justify;
   padding: 80px;
 }
+
+
+@media ((min-width: 427px) and (max-width: 1024px)) {
+  .am-p{
+  font-size: 30px;
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #ffffff;
+  padding: 80px;
+} }
+
+
+@media ((min-width: 375px) and (max-width: 426px)) {
+  .am-p{
+  font-size: 15px;
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #ffffff;
+  padding: 80px;
+}}
+
+@media ((min-width: 320px) and (max-width: 374px)) {
+  .am-p{
+  font-size: 10px;
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #ffffff;
+  padding: 80px;
+}}
 
 
 
