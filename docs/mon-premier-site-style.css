@@ -496,7 +496,7 @@ a:visited {
 @media ((min-width: 320px) and (max-width: 426px)) {
   .cm-ul {
     list-style-type: none;
-    padding-top: 100px;
+    padding-top: 50px;
     font-family: "Google Sans Code", monospace;
     font-optical-sizing: auto;
     font-style: normal;
