@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Italiana&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Reset CSS */
+
+* { margin: 0; padding: 0; }
+
+/* Contenu de la Page Principale */
+
+.pp-body {
+	background-image: url(img/pexels-brett-sayles-4066118.jpg);
+	background-size: cover;
+	height: 100vh;
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+    
+ .pp-header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-items: center;
+
+} 
+
+.div1 { grid-area: 3 / 2 / 4 / 3; }
+.div2 { grid-area: 3 / 3 / 4 / 4; 
+        align-content: center; }
+.div2 { grid-area: 3 / 3 / 4 / 4; 
+        align-content: center;}
+.div3 { grid-area: 3 / 4 / 4 / 5; }
+.pp-nav { grid-area: 1 / 5 / 2 / 6;
+          font-family: "Poppins", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+.pp-footer{grid-area: 5 / 3 / 6 / 4;
+          color: rgb(0, 0, 0);
+          padding-top: 50px;
+          font-family: "Google Sans Code", monospace;
+          font-optical-sizing: auto;
+          font-style: normal;
+          font-size: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: end;
+          align-items: center; 
+}
+
+
+/* .pp-body:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+} */
+
+
+
+/* .div1 { grid-area: 2 / 2 / 3 / 3; }
+.div2 { grid-area: 2 / 3 / 3 / 5; }
+.div3 { grid-area: 2 / 5 / 3 / 7; } */
+
+.pp-p{ 
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+
+/* .pp-p-two{ 
+  font-size: 450%;
+  color: #ffffff;
+
+.pp-ul{
+  list-style-type: none;
+  text-align: center;
+} */
+
+.pp-ul{
+  list-style-type: none;
+  text-align: center;
+} 
+
+.pp-ul2{
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+
+}
+
+.pp-li{
+  margin: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal; 
+}
+
+.pp-a {
+  outline: none;
+  text-decoration: none;
+  
+}
+
+.pp-a:link {
+  color: #000000;
+}
+
+.pp-a:visited {
+  color: #000000;
+}
+
+
+/* Contenu de la Page Principale pp */
+
+/* #pp-body{
+  background-image: url(images/pexels-brett-sayles-4066118.jpg);
+  background-size: cover;
+	background-position: 50% 0;
+	height: 100%;
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+} */
+
+/* .pp-img{
+  position: absolute;
+  top: 30%; left:20%;
+  width: 600px;
+  height: 600px;
+} */
+
+/* .truc-a-centrer {
+  position: absolute; 
+  top:50%; left: 50%; 
+  transform: translate(-50%, -50%); 
+} */
+
+/* .pp-p{ position:absolute;
+  top: 10%; left:10%;
+  font-size: 100px;
+  color: #ffffff;
+} */
+
+/* .pp-p-two{ 
+  position:absolute;
+  top: 60%; left:50%;
+  font-size: 80px;
+  color: #ffffff;
+} */
+
+/* .pp-ul{
+  list-style-type: none;
+} */
+
+/* .pp-li{
+   margin-bottom: 20px;
+} */
+
+/* .pp-a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+} */
+
+/* .pp-a:link {
+  color: #000000;
+} */
+
+/* .pp-a:visited {
+  color: #000000;
+} */
+/* 
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  order: 1;
+  gap: 80px;
+} */
+
+/* 
+nav a[href] {
+  background: url("images/2445095.svg") no-repeat 100% 0;
+  background-size: 25px 25px;
+  padding-right: 30px;
+}
+ */
+
+
+
+/* Contenu du CV version 2 */
+
+
+.cv2-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cv2-ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-size:20px;
+  column-gap: 300px;
+  padding-top: 50px;
+}
+
+.cv2-li{
+  padding:8px;
+}
+
+.cv2-h1{
+  text-align: center;
+  padding-top: 50px;
+}
+
+section{
+  /* Active le modèle Flexbox */
+    display: flex;
+    /* Ajoute un espacement entre l'image et le texte */
+    gap: 80px;
+    /* Définissez une largeur maximale (facultatif) */
+    flex-direction: row-reverse;
+    padding:80px;
+    justify-content: center;
+}
+
+section img {
+    width: 700px;
+    height: 700px;
+    /* Permet à l'image de ne pas se réduire (facultatif) */
+}
+
+.cv2-div{
+  display: flex;
+  flex-direction: column;
+}
+
+.cv2-body{
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container_1{
+  display: flex;
+  flex-direction: column;
+  gap:50px;
+}
+
+
+.container_2{
+  max-width:800px;
+  display :flex;
+  flex-direction: column;
+  gap: 50px;
+
+}
+
+.container_3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  order: 1;
+  gap: 50px;
+}
+
+a {
+  outline: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #000000;
+}
+
+a:visited {
+  color: #000000;
+}
+
+
+/* Contenu de la page About Me */
+
+#am-body{
+  background-color: rgb(156, 177, 194);
+}
+
+.am-p{
+  font-size: 50px;
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #ffffff;
+  text-align: justify;
+  padding: 80px;
+}
+
+
+
+/* Contenu de la page Contact Me */
+
+
+#cm-body{
+  background-color:rgba(44, 39, 45);
+}
+
+.cm-image-ul {
+    list-style-type: none;
+    padding: 20px;
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size:50px;
+    color: #ffffff;
+}
+
+.cm-image-ul .image-linkedin {
+    padding-left: 30%;
+    background:url(images/2446228.svg) no-repeat left top;
+    background-size: 20% 100%; 
+    margin-bottom: 50px;
+    
+}
+
+.cm-image-ul .image-github {
+    padding-left: 30%;
+    background: url(images/github-logo-6532.svg) no-repeat left top;
+    background-size: 20% 100%; 
+}
+
+.cm-image-ul .image-phone {
+    padding-left: 30%;
+    margin-bottom: 50px;
+}
+
+.cm-image-ul .image-mail {
+    padding-left: 30%;
+    margin-bottom: 50px;
+}
+
+.cm-container{
+  padding-top:80px;
+}
+
+.cm-img{
+  width:500px;
+  position:absolute;
+  top:100px; left:300px;
+}
+
+/* __________________________________________________________________*/
+/* Contenu du CV version 1 */
+/* __________________________________________________________________ */
+
+/* .cv-body{
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-image:url(pexels-pixabay-414659.jpg) ;
+  background-color: rgba(255, 255, 255, 0);
+  background-blend-mode: lighten;
+}  */
+
+
+/* .pink {
+    color: rgb(255, 255, 255);
+} */
+
+/* img {
+    height: 290px;
+    width: 300px;
+    position:absolute;
+    top: 5%;
+} */
+
+/* .flexible {
+    display: flex;
+    flex-direction:row;
+} */
+
+/* .img-flexible {
+    display:flex;
+    align-items: flex-start;
+    width:350px;  
+} */
+
+/* .text-flexible {
+    flex: 1;
+    padding: 10px;
+    font-size: 20px;
+} */
+
+/* .cv-h{
+  color:#ffffff;
+} */
+
+/* 
+.intro {
+    font-size: 10px;
+    background-color: rgba(44, 39, 45);
+    margin: 5px;
+    padding: 20px;
+    width : 250px;
+    text-align: left;
+    color:#ffffff;
+
+} */
+
+/* .image-ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.image-ul .image-linkedin {
+    padding-left: 20%;
+    background:url(2446228.svg) no-repeat left top;
+    background-size: 20% 100%; 
+    margin-bottom: 20px;
+}
+
+.image-ul .image-github {
+    padding-left: 20%;
+    background:url(github-logo-6532.svg) no-repeat left top;
+    background-size: 20% 100%; 
+} */
+
+/* 
+.ul{ font-size: 15px;
+
+}
+
+.p{ font-size: 15px;
+
+} */
+
+/* .li{
+  list-style-type: circle;
+} */
+
+/* .border{
+  border-left: 2px solid #ffffff;
+} */
+
+/* .presentation {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: justify;
+    } */
+
+/* .conteneur {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  text-align:justify;
+} */
+
+/* .conteneur_2 {
+  padding: 10px;
+  display: flex;
+  gap: 150px;
+  text-align:left;
+} */
+
+/* .font-weight {
+  font-weight: 700;
+} */
+
