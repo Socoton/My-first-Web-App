@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Italiana&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 /* Reset CSS */
 
@@ -6,67 +8,113 @@
 
 /* Contenu de la Page Principale */
 
-html {
-	height: 100%;
-}
 .pp-body {
-	color: #fff;
-	font-size: 16px;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	background-image: url(img/pexels-brett-sayles-4066118.jpg);
 	background-size: cover;
-	background-position: 50% 0;
-	height: 100%;
-	text-align: center;
+	height: 100vh;
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.pp-body:before {
+    
+ .pp-header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-items: center;
+
+} 
+
+.div1 { grid-area: 3 / 2 / 4 / 3; }
+.div2 { grid-area: 3 / 3 / 4 / 4; 
+        align-content: center; }
+.div2 { grid-area: 3 / 3 / 4 / 4; 
+        align-content: center;}
+.div3 { grid-area: 3 / 4 / 4 / 5; }
+.pp-nav { grid-area: 1 / 5 / 2 / 6;
+          font-family: "Poppins", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+.pp-footer{grid-area: 5 / 3 / 6 / 4;
+          color: rgb(0, 0, 0);
+          padding-top: 50px;
+          font-family: "Google Sans Code", monospace;
+          font-optical-sizing: auto;
+          font-style: normal;
+          font-size: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: end;
+          align-items: center; 
+}
+
+
+/* .pp-body:before {
 	content: '';
 	display: inline-block;
 	vertical-align: middle;
 	height: 100%;
-}
+} */
 
-.pp-main {
-	display: inline-block;
-	vertical-align: middle;
-	padding:  100px;
-	max-width: 500px;
-}
 
-.truc-a-centrer {
-  position: absolute; /* postulat de départ */
-  top:50%; left: 50%; /* à 50%/50% du parent référent */
-  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
-}
+
+/* .div1 { grid-area: 2 / 2 / 3 / 3; }
+.div2 { grid-area: 2 / 3 / 3 / 5; }
+.div3 { grid-area: 2 / 5 / 3 / 7; } */
 
 .pp-p{ 
-	position: relative;
-	right: 90%; bottom: 30%;
-	padding: 30px;
-  font-size: 100px;
+  font-size: 30px;
   color: #ffffff;
+  text-align: center;
+  justify-content: center;
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+
 }
 
-.pp-p-two{ 
-  position: relative;
-	left: 90%; top: 30%;
-  font-size: 80px;
+/* .pp-p-two{ 
+  font-size: 450%;
   color: #ffffff;
-}
 
 .pp-ul{
   list-style-type: none;
+  text-align: center;
+} */
+
+.pp-ul{
+  list-style-type: none;
+  text-align: center;
+} 
+
+.pp-ul2{
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+
 }
 
 .pp-li{
-   margin-bottom: 20px;
+  margin: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal; 
 }
 
 .pp-a {
   outline: none;
   text-decoration: none;
-  padding: 2px 1px 0;
+  
 }
 
 .pp-a:link {
@@ -77,18 +125,8 @@ html {
   color: #000000;
 }
 
-.container{
-	position: relative;
-}
- 
-/* .pp-nav a[href] {
-  background: url("images/2445095.svg") no-repeat 100% 0;
-  background-size: 25px 25px;
-  padding-right: 30px;
-} */
 
-
-/* Contenu de la Page Principale */
+/* Contenu de la Page Principale pp */
 
 /* #pp-body{
   background-image: url(images/pexels-brett-sayles-4066118.jpg);
@@ -193,6 +231,7 @@ nav a[href] {
 
 .cv2-h1{
   text-align: center;
+  padding-top: 50px;
 }
 
 section{
@@ -325,7 +364,11 @@ a:visited {
   padding-top:80px;
 }
 
-
+.cm-img{
+  width:500px;
+  position:absolute;
+  top:100px; left:300px;
+}
 
 /* __________________________________________________________________*/
 /* Contenu du CV version 1 */
