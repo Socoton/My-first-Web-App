@@ -465,11 +465,17 @@ a:visited {
 
 #cm-body{
   background-color:rgba(44, 39, 45);
+  height: 100vh; width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:30px;
 }
 
-.cm-image-ul {
+.cm-ul {
     list-style-type: none;
-    padding: 20px;
+    padding-top: 100px;
     font-family: "Google Sans Code", monospace;
     font-optical-sizing: auto;
     font-style: normal;
@@ -477,39 +483,27 @@ a:visited {
     color: #ffffff;
 }
 
-.cm-image-ul .image-linkedin {
-    padding-left: 30%;
-    background:url(images/2446228.svg) no-repeat left top;
-    background-size: 20% 100%; 
-    margin-bottom: 50px;
-    
+.cm-li{
+  padding-bottom:80px;
 }
 
-.cm-image-ul .image-github {
-    padding-left: 30%;
-    background: url(images/github-logo-6532.svg) no-repeat left top;
-    background-size: 20% 100%; 
+
+.cm-nav{
+  padding-top:100px;
 }
 
-.cm-image-ul .image-phone {
-    padding-left: 30%;
-    margin-bottom: 50px;
-}
 
-.cm-image-ul .image-mail {
-    padding-left: 30%;
-    margin-bottom: 50px;
-}
+@media ((min-width: 320px) and (max-width: 426px)) {
+  .cm-ul {
+    list-style-type: none;
+    padding-top: 100px;
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    color: #ffffff;
+}}
 
-.cm-container{
-  padding-top:80px;
-}
-
-.cm-img{
-  width:500px;
-  position:absolute;
-  top:100px; left:300px;
-}
 
 /* __________________________________________________________________*/
 /* Contenu du CV version 1 */
