@@ -58,8 +58,6 @@
           align-items: center; }
 
 
-
-
 .pp-p{ 
   font-size: 80px;
   color: #ffffff;
@@ -103,6 +101,15 @@
 
 .pp-a:visited {
   color: #000000;
+}
+
+
+@media ((min-width: 768px) and (max-width: 1024px)) {
+  .pp-p{ 
+  font-size: 25px;}
+
+.pp-li{
+  font-size: 15px;}
 }
 
 
@@ -158,8 +165,13 @@
           justify-content: end;
           align-items: center; }
 .pp-p{ 
-  font-size: 30px;}
+  font-size: 20px;}
+
+.pp-li{
+  font-size: 10px;}
 }
+
+
 
 
 @media ((min-width: 320px) and (max-width: 424px)) {
