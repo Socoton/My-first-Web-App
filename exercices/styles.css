@@ -18,7 +18,7 @@ background-repeat: no-repeat;
 .container1{
     width:100%;
     position: relative;
-    animation: descendre 3s linear infinite alternate running;
+    animation: descendre 3s linear forwards;
     
 }
 
@@ -35,6 +35,7 @@ background-repeat: no-repeat;
     width:100%;
     position: relative;
     animation: avancer 3s linear infinite alternate running;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
     top: 900px;
 }
 
